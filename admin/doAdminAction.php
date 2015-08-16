@@ -12,6 +12,9 @@ if($act == 'logout'){
 
 }elseif($act == 'addAdmin'){
    $msg = addAdmin();
+}elseif($act == 'editAdmin'){
+    //editAdmin();
+
 }
 ?>
 <h1><?php echo $msg ?></h1>

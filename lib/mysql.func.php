@@ -77,6 +77,7 @@ function delete($table, $where=null){
  */
 function fetchOne($sql,$res_type=MYSQL_ASSOC){
     $res = mysql_query($sql);
+    //var_dump($res);
     $row =mysql_fetch_array($res, $res_type);
     return $row;
 }

@@ -12,6 +12,7 @@ foreach($rows as $key=>$value){
     echo "<tr><td>{$value['id']}</td>
                 <td>{$value['username']}</td>
                 <td>{$value['email']}</td>
+                <td><a href='editAdmin.php?id={$value['id']}'>修改</a></td>
             </tr>";
     //echo "<br>";
 
