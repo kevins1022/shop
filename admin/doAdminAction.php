@@ -13,7 +13,8 @@ if($act == 'logout'){
 }elseif($act == 'addAdmin'){
    $msg = addAdmin();
 }elseif($act == 'editAdmin'){
-    //editAdmin();
+    $id = $_REQUEST['id'];
+    $msg = editAdmin($id);
 
 }
 ?>

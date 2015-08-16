@@ -5,6 +5,12 @@
  * Date: 15/8/15
  * Time: 下午12:50
  */
+/**
+ *生成随即字符串
+ * @param int $type
+ * @param int $length
+ * @return string
+ */
 function bulidRandomString($type=1, $length=4){
     if($type == 1){
         $chars = join("", range(0, 9));

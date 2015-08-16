@@ -12,7 +12,7 @@
     $row = fetchOne($sql);
 
 ?>
-<form action="doAdminAction.php?act=addAdmin" method="post">
+<form action="doAdminAction.php?act=editAdmin&id=<?php echo $id ?>" method="post">
     管理员用户名<input type="text" name="username" value="<?php echo $row['username'] ?>"/>
     <br/>
     管理员密码 <input type="text" name="password" value="<?php echo $row['password'] ?>"/>

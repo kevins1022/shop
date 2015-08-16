@@ -5,16 +5,29 @@
  * Date: 15/8/16
  * Time: 下午2:18
  */
+/**
+ * 判断管理员登录
+ * @param $sql
+ * @return multitype
+ */
 function checkAdmin($sql){
     return fetchOne($sql);
 
 }
+
+/**
+ * 检测管理员是否登录
+ */
 function checkLogined(){
     if(@$_SESSION['adminId']=='' && $_COOKIE['adminId']==''){
         alertMes("请登录",'login.php');
 
     }
 }
+
+/**
+ * 管理员注销操作
+ */
 function logout(){
     $_SESSION=array();
     if(isset($_COOKIE[session_name()])){
@@ -34,6 +47,11 @@ function logout(){
     header("location:login.php");
 
 }
+
+/**
+ * 管理员添加操作
+ * @return string
+ */
 function addAdmin(){
     $arr = $_POST;
     $arr['password'] = md5($_POST['password']);
@@ -47,8 +65,30 @@ function addAdmin(){
     return $msg;
 
 }
+
+/**
+ * 获取所有管理员
+ * @return multitype
+ */
 function getAllAdmin(){
     $sql = "select id,username,email from imooc_admin";
     $rows = fetchAll($sql);
     return $rows;
+}
+
+/**
+ * 修改管理员
+ * @param $id
+ * @return string
+ */
+function editAdmin($id){
+    $arr = $_POST;
+    $arr['password'] = md5($arr['password']);
+    if(update('imooc_admin', "id=$id")){
+        $msg = "修改成功";
+    }else{
+        $msg = "修改失败";
+    }
+    return $msg;
+
 }

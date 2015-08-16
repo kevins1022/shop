@@ -6,6 +6,14 @@
  * Time: 下午12:47
  */
 require_once 'string.func.php';
+/**
+ * 生成图片验证码
+ * @param int $type
+ * @param int $length
+ * @param int $pixel
+ * @param int $line
+ * @param string $sess_name
+ */
 function verifyImages($type=1,$length=4,$pixel = 0,$line = 0,$sess_name = "verify"){
 
     //session_start();
