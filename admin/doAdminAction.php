@@ -7,14 +7,18 @@
  */
 require_once '../include.php';
 $act = $_REQUEST['act'];
+$id = $_REQUEST['id'];
 if($act == 'logout'){
     logout();
 
 }elseif($act == 'addAdmin'){
    $msg = addAdmin();
 }elseif($act == 'editAdmin'){
-    $id = $_REQUEST['id'];
+
     $msg = editAdmin($id);
+
+}elseif($act == 'delAdmin'){
+    $msg = delAdmin($id);
 
 }
 ?>

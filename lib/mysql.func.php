@@ -63,8 +63,9 @@ function update($table, $array,$where=null){
  * @return int
  */
 function delete($table, $where=null){
-    $where=$where==null?null:"where".$where;
+    $where=$where==null?null:"where ".$where;
     $sql = "delete from {$table} {$where}";
+    //echo $sql;
     mysql_query($sql);
     return mysql_affected_rows();
 

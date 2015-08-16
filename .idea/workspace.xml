@@ -4,9 +4,9 @@
     <list default="true" id="12938784-03fb-468b-b653-1347894b70dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/admin.inc.php" afterPath="$PROJECT_DIR$/core/admin.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/doAdminAction.php" afterPath="$PROJECT_DIR$/admin/doAdminAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/editAdmin.php" afterPath="$PROJECT_DIR$/admin/editAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/image.func.php" afterPath="$PROJECT_DIR$/lib/image.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/string.func.php" afterPath="$PROJECT_DIR$/lib/string.func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/listAdmin.php" afterPath="$PROJECT_DIR$/admin/listAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/mysql.func.php" afterPath="$PROJECT_DIR$/lib/mysql.func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/page.func.php" afterPath="$PROJECT_DIR$/lib/page.func.php" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="editAdmin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/editAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.868421" vertical-offset="145" max-vertical-offset="899">
+            <state vertical-scroll-proportion="-3.8157895" vertical-offset="261" max-vertical-offset="899">
               <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <marker date="1439732944000" expanded="true" signature="162:221" placeholder="select name,..imooc_admin..." />
@@ -47,11 +47,27 @@
       <file leaf-file-name="mysql.func.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/mysql.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0789475" vertical-offset="1953" max-vertical-offset="3161">
-              <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+            <state vertical-scroll-proportion="-7.8421054" vertical-offset="1500" max-vertical-offset="3190">
+              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
               <folding>
-                <marker date="1439732198000" expanded="true" signature="556:602" placeholder="insert into ..." />
-                <marker date="1439732198000" expanded="true" signature="1286:1307" placeholder="delete from ..." />
+                <marker date="1439734344000" expanded="true" signature="556:602" placeholder="insert into ..." />
+                <marker date="1439734344000" expanded="true" signature="1287:1308" placeholder="delete from ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.func.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/page.func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6576728" vertical-offset="683" max-vertical-offset="1421">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+              <folding>
+                <marker date="1439737838000" expanded="true" signature="128:153" placeholder="select * fro..imooc_admin..." />
+                <marker date="1439737838000" expanded="true" signature="479:511" placeholder="select * fro..." />
+                <marker date="1439737838000" expanded="true" signature="479:520" placeholder="select * fro..." />
+                <marker date="1439737838000" expanded="true" signature="479:522" placeholder="select * fro..." />
+                <marker date="1439737838000" expanded="true" signature="479:533" placeholder="select * fro..." />
               </folding>
             </state>
           </provider>
@@ -60,12 +76,12 @@
       <file leaf-file-name="listAdmin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/listAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3421054" vertical-offset="203" max-vertical-offset="812">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state vertical-scroll-proportion="-6.868421" vertical-offset="174" max-vertical-offset="870">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding>
-                <marker date="1439731956000" expanded="true" signature="203:344" placeholder="..." />
-                <marker date="1439731956000" expanded="true" signature="203:363" placeholder="..." />
-                <marker date="1439731956000" expanded="true" signature="203:407" placeholder="..." />
+                <marker date="1439733975000" expanded="true" signature="203:344" placeholder="..." />
+                <marker date="1439733975000" expanded="true" signature="203:363" placeholder="..." />
+                <marker date="1439733975000" expanded="true" signature="203:499" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -74,8 +90,8 @@
       <file leaf-file-name="doAdminAction.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/doAdminAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2105265" vertical-offset="190" max-vertical-offset="783">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state vertical-scroll-proportion="-9.921053" vertical-offset="203" max-vertical-offset="899">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -84,11 +100,11 @@
       <file leaf-file-name="admin.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/admin.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.026316" vertical-offset="1682" max-vertical-offset="2871">
-              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+            <state vertical-scroll-proportion="-4.9210525" vertical-offset="2568" max-vertical-offset="3161">
+              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1439733244000" expanded="true" signature="1071:1112" placeholder="select id,us..imooc_admin..." />
+                <marker date="1439734178000" expanded="true" signature="1071:1112" placeholder="select id,us..imooc_admin..." />
               </folding>
             </state>
           </provider>
@@ -104,24 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string.func.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="string.func.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/string.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39123103" vertical-offset="0" max-vertical-offset="1305">
+            <state vertical-scroll-proportion="-6.105263" vertical-offset="0" max-vertical-offset="1305">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addAdmin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/addAdmin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.868421" vertical-offset="0" max-vertical-offset="580">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,13 +140,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/listAdmin.php" />
-        <option value="$PROJECT_DIR$/lib/mysql.func.php" />
         <option value="$PROJECT_DIR$/admin/editAdmin.php" />
-        <option value="$PROJECT_DIR$/admin/doAdminAction.php" />
-        <option value="$PROJECT_DIR$/core/admin.inc.php" />
         <option value="$PROJECT_DIR$/lib/image.func.php" />
         <option value="$PROJECT_DIR$/lib/string.func.php" />
+        <option value="$PROJECT_DIR$/admin/listAdmin.php" />
+        <option value="$PROJECT_DIR$/core/admin.inc.php" />
+        <option value="$PROJECT_DIR$/admin/doAdminAction.php" />
+        <option value="$PROJECT_DIR$/lib/mysql.func.php" />
+        <option value="$PROJECT_DIR$/lib/page.func.php" />
       </list>
     </option>
   </component>
@@ -245,8 +252,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.listAdmin.php">
+  <component name="RunManager" selected="JavaScript Debug.page.func.php">
     <configuration default="false" name="listAdmin.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shop/admin/listAdmin.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="page.func.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shop/lib/page.func.php">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -271,12 +283,14 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.listAdmin.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.page.func.php" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.listAdmin.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page.func.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.listAdmin.php" />
       </list>
     </recent_temporary>
   </component>
@@ -337,64 +351,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/mysql.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0789475" vertical-offset="1953" max-vertical-offset="3161">
-          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
-          <folding>
-            <marker date="1439732198000" expanded="true" signature="556:602" placeholder="insert into ..." />
-            <marker date="1439732198000" expanded="true" signature="1286:1307" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/listAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3421054" vertical-offset="203" max-vertical-offset="812">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <marker date="1439731956000" expanded="true" signature="203:344" placeholder="..." />
-            <marker date="1439731956000" expanded="true" signature="203:363" placeholder="..." />
-            <marker date="1439731956000" expanded="true" signature="203:407" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/editAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.868421" vertical-offset="145" max-vertical-offset="899">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <marker date="1439732944000" expanded="true" signature="162:221" placeholder="select name,..imooc_admin..." />
-            <marker date="1439732944000" expanded="true" signature="162:226" placeholder="select name,..imooc_admin..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/addAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.868421" vertical-offset="0" max-vertical-offset="580">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/doAdminAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2105265" vertical-offset="190" max-vertical-offset="783">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/admin.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.026316" vertical-offset="1682" max-vertical-offset="2871">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1439733244000" expanded="true" signature="1071:1112" placeholder="select id,us..imooc_admin..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,10 +369,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/string.func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39123103" vertical-offset="0" max-vertical-offset="1305">
+        <state vertical-scroll-proportion="-6.105263" vertical-offset="0" max-vertical-offset="1305">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/editAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8157895" vertical-offset="261" max-vertical-offset="899">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <marker date="1439732944000" expanded="true" signature="162:221" placeholder="select name,..imooc_admin..." />
+            <marker date="1439732944000" expanded="true" signature="162:226" placeholder="select name,..imooc_admin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/listAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.868421" vertical-offset="174" max-vertical-offset="870">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <marker date="1439733975000" expanded="true" signature="203:344" placeholder="..." />
+            <marker date="1439733975000" expanded="true" signature="203:363" placeholder="..." />
+            <marker date="1439733975000" expanded="true" signature="203:499" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/doAdminAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.921053" vertical-offset="203" max-vertical-offset="899">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/admin.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9210525" vertical-offset="2568" max-vertical-offset="3161">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1439734178000" expanded="true" signature="1071:1112" placeholder="select id,us..imooc_admin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mysql.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8421054" vertical-offset="1500" max-vertical-offset="3190">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+          <folding>
+            <marker date="1439734344000" expanded="true" signature="556:602" placeholder="insert into ..." />
+            <marker date="1439734344000" expanded="true" signature="1287:1308" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/page.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6576728" vertical-offset="683" max-vertical-offset="1421">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <marker date="1439737838000" expanded="true" signature="128:153" placeholder="select * fro..imooc_admin..." />
+            <marker date="1439737838000" expanded="true" signature="479:511" placeholder="select * fro..." />
+            <marker date="1439737838000" expanded="true" signature="479:520" placeholder="select * fro..." />
+            <marker date="1439737838000" expanded="true" signature="479:522" placeholder="select * fro..." />
+            <marker date="1439737838000" expanded="true" signature="479:533" placeholder="select * fro..." />
           </folding>
         </state>
       </provider>

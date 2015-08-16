@@ -13,6 +13,8 @@ foreach($rows as $key=>$value){
                 <td>{$value['username']}</td>
                 <td>{$value['email']}</td>
                 <td><a href='editAdmin.php?id={$value['id']}'>修改</a></td>
+                <td><a href='doAdminAction.php?act=delAdmin&id={$value['id']}'>删除</a></td>
+
             </tr>";
     //echo "<br>";
 

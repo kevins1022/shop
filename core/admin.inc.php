@@ -84,10 +84,20 @@ function getAllAdmin(){
 function editAdmin($id){
     $arr = $_POST;
     $arr['password'] = md5($arr['password']);
-    if(update('imooc_admin', "id=$id")){
+    if(update('imooc_admin',$arr, "id=$id")){
         $msg = "修改成功";
     }else{
         $msg = "修改失败";
+    }
+    return $msg;
+
+}
+function delAdmin($id){
+    if(delete("imooc_admin", "id={$id}")){
+        $msg = "删除成功";
+
+    }else{
+        $msg = "删除失败";
     }
     return $msg;
 
