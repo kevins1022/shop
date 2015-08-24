@@ -71,6 +71,7 @@ function addAdmin(){
  * @return multitype
  */
 function getAllAdmin(){
+    //$where = $where==null?null:$where;
     $sql = "select id,username,email from imooc_admin";
     $rows = fetchAll($sql);
     return $rows;

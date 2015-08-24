@@ -6,7 +6,29 @@
  * Time: 下午8:43
  */
 require_once '../include.php';
-$rows = getAllAdmin();
+$pageSize = 2;
+$page = $_REQUEST['page']?$_REQUEST['page']:1;
+if($page<1 || !is_numeric($page) || $page == null){
+    $page = 1;
+
+}
+$sql = "select * from imooc_admin";
+$total = getResultNum($sql);
+
+
+$offSet = ($page-1)*$pageSize;
+if($page>$totalPage) $page = $totalPage;
+$totalPage = ceil($total/$pageSize);
+//$sql = "select * from imooc_admin limit {$offSet}, {$pageSize}";
+//$rows = fetchAll($sql);
+//if($rows<$total){
+//    echo showPage($page, $totalPage);
+//
+//}
+echo showPage($page, $totalPage);
+die();
+//$rows = getAllAdmin();
+
 echo "<table>";
 foreach($rows as $key=>$value){
     echo "<tr><td>{$value['id']}</td>
